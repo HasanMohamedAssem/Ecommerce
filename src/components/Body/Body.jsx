@@ -1,5 +1,5 @@
 import "./Body.style.css"
-import imag from "../assets/images/firstimg.jpg"
+import imag from "../assets/images/brand2.png"
 
 export default function Body(){
     return(

@@ -1,17 +1,18 @@
 import "./Card.style.css"
-import imag from "../assets/images/ordinarysol.jpg"
+import {ReactComponent as Icon} from "../assets/images/iconbtn.svg"
+
 export default function Card(props){
     return(
 
         <div className="card--container">
             <div className="card--img">
-                    <img src={imag} alt="skincare solution"/>
+                    <img src={props.img} alt="skincare solution"/>
             </div>
             <div className="card--brand">   
             
            <p className="brand--name"> {props.name} <br /></p>
             <p className="type">{props.desc}<br /></p>
-            <p className="brand--name">${props.price} <button className="icon--btn"><i class="fa fa-cart-plus" aria-hidden="true"></i></button></p>
+            <p className="brand--name">${props.price} <button className="icon--btn"><Icon/></button></p>
             
 
             </div>
