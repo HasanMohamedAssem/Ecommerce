@@ -1,0 +1,27 @@
+.bar--container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C7CAC3;
+}
+.bar--title{
+    padding: 5px;
+    padding-left: 20px;
+    color: #1E1E1E;
+}
+.bar--view{
+    padding: 5px;
+    padding-right: 20px;
+    align-self: center;
+}
+.bar--view>a:link{
+    color: #1E1E1E;
+    font-weight: 600;
+}
+.bar--view>a:visited{
+    color: #1E1E1E;
+    font-weight: 600;
+}
+.bar--view>a:hover{
+    color: #868686;
+    font-weight: 600;
+}
