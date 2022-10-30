@@ -1,5 +1,7 @@
-import imag1 from "../assets/images/ordinarysol.jpg"
-import imag2 from "../assets/images/firstimg.jpg"
+import imag1 from "../assets/images/product1.png"
+import imag2 from "../assets/images/product2.png"
+import imag3 from "../assets/images/product3.png"
+import imag4 from "../assets/images/product4.png"
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
     {
@@ -20,7 +22,7 @@ export default [
     },
     {
         id:1,
-        img:imag1,
+        img:imag3,
         name:"The Body Shop",
         desc:"Shower Gel -250ml",
         price:"13.90"
@@ -28,7 +30,7 @@ export default [
     },
     {
         id:4,
-        img:imag2,
+        img:imag4,
         name:"Bath & Body Works",
         desc:"Hand Soap -250ml",
         price:"24.90"

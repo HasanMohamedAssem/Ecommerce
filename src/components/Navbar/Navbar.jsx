@@ -1,11 +1,12 @@
 import "./Navbar.style.css"
+import logo from "../assets/images/logo.png"
 export default function Navbar(){
 
     return(
           <div className="nav--container">
 
         <div className="nav--brand--name">
-        <h3>Go Pretty</h3>
+        <img src={logo} alt="logo" className="logoimg"/><h3>Go Pretty</h3>
         </div>
 
         <div className="brand--menu">

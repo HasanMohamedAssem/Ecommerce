@@ -1,8 +1,42 @@
 .body--img{
+    position: static;
+    display: block;
     width: 100%;
     height: 500px;
 }
 .body--img>img{
     width: 100%;
     height: 500px;
+}
+.body-on-imgs>img{
+    width: 150px;
+    height: 160px;
+}
+.body-on-imgs{
+    
+    position: absolute;
+    top: 375px;
+    right: 46%;
+  
+ 
+}
+.body-on-imgs2>img{
+    width: 150px;
+    height: 160px;
+}
+.body-on-imgs2{
+    position: absolute;
+    top: 445px;
+    right: 32%;
+}
+
+.body--discount--img{
+    position: absolute;
+    top: 250px;
+    right: 10%;
+}
+
+
+.body--discount--img>img{
+    width: 250px;
 }
