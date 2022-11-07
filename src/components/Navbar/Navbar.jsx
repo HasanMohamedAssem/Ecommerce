@@ -16,10 +16,12 @@ export default function Navbar(){
             <a href="/">Sale</a>
             <a href="/">Contact</a>
         </div>
-
         <div className="brand--search">
-        <input type="text" placeholder="Search.." />
-       
+
+       <div class="input-group">
+       <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+      <button type="button" class="btn btn-outline-success">search</button>
+       </div>
         </div>
         <div className="shopping-cart">
           <ShoppingCart />

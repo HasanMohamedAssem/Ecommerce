@@ -8,7 +8,7 @@ export default [
         id:1,
         img:imag1,
         name:"The Ordinary",
-        desc:"Upto 80% off",
+        desc:"Up to 80% off",
        
 
     },
