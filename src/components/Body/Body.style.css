@@ -40,3 +40,47 @@
 .body--discount--img>img{
     width: 250px;
 }
+
+.firstText-on-img{ 
+ position: absolute;
+ top: 120px;
+ right: 58%;
+}
+.firstText-on-img>h1{
+font-family: 'Sree Krushnadevaraya';
+color: #D7FFA5;
+font-size: 50px;
+font-weight: 400;
+
+}
+.secondText-on-img{  
+ position: absolute;
+ top: 180px;
+ right: 31.7%;
+}
+.secondText-on-img>h1{
+color: #FFFFFF;
+font-family: 'Sree Krushnadevaraya';
+font-size: 50px;
+font-weight: 400;
+}
+
+.button-on-img{
+    
+position: absolute;
+top: 270px;
+right: 42%;
+
+}
+.button-on-img>button{
+    background-color: #73A336;
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
+    width: 173px;
+    height: 62px;
+    font-weight: 600;
+}
+
+.button-on-img>button:hover{
+    font-size:x-large;
+}

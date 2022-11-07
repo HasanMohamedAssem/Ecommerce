@@ -24,6 +24,17 @@ export default function Body(){
             <img src={discountimg}  alt="logo" />
             </div>
 
+            <div className="firstText-on-img">
+                <h1>Discover</h1>
+            </div>
+
+            <div className="secondText-on-img">
+                <h1>Our New Products For You </h1>
+            </div>
+
+            <div className="button-on-img">
+                <button>Shop Now ❕</button>
+            </div>
 
         </div>
 
