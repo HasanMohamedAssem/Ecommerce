@@ -4,6 +4,7 @@ import Card from './components/Card/Card';
 import Navbar from './components/Navbar/Navbar';
 import ProductBar from './components/ProductBar/ProductBar';
 import data from "./components/data/Data"
+import {ReactComponent as Arrow} from "../src/components/assets/images/arrowIcon.svg"
 
 
 function App() {
@@ -32,6 +33,9 @@ const arr = data.map(items =>
       />
     <div className='cards--app'>
       {arr}
+      <div className='arrow'>
+      <Arrow />
+      </div>
     </div>
 
     <ProductBar 

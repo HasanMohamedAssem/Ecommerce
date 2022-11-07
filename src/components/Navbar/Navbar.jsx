@@ -18,9 +18,7 @@ export default function Navbar(){
 
         <div className="brand--search">
         <input type="text" placeholder="Search.." />
-        <button className="search--btn">
-        <i className="fa fa-search"></i>
-        </button>
+       
         </div>
           </div>
 

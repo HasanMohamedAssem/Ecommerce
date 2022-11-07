@@ -5,11 +5,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
-  
-
 }
-
+.arrow{
+  padding-top: 155px;
+  margin-left: 100px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

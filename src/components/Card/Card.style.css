@@ -3,7 +3,8 @@
     display: flex;
     flex-direction: column;
     background-color: #E6E6E6;
-    margin: 10px;
+    margin: 15px;
+    margin-left: 100px;
 }
 
 .card-cont:hover{  
@@ -17,6 +18,7 @@
 
 .brand--name{
     color: green;
+    padding-top: 15px;
 }
 
 .icon--btn{
