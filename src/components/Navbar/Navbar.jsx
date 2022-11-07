@@ -1,5 +1,6 @@
 import "./Navbar.style.css"
 import logo from "../assets/images/logo.png"
+import {ReactComponent as ShoppingCart} from "../assets/images/shopping-cart-icon.svg"
 export default function Navbar(){
 
     return(
@@ -19,6 +20,9 @@ export default function Navbar(){
         <div className="brand--search">
         <input type="text" placeholder="Search.." />
        
+        </div>
+        <div className="shopping-cart">
+          <ShoppingCart />
         </div>
           </div>
 

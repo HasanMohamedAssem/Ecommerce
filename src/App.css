@@ -6,6 +6,10 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+.brand-cards{
+  gap:60px;
+  background-color: #CDA792;
+}
 .arrow{
   padding-top: 155px;
   margin-left: 100px;

@@ -1,0 +1,25 @@
+
+.brand-card-cont{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    
+}
+
+.brand--img>img{
+    padding-left: 15px;
+    background-color: #7FA353;
+}
+
+.brand--offer>h3{
+margin-top: 15px;
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+text-transform: capitalize;
+color: #FFFFFF;
+}

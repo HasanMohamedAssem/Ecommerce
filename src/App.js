@@ -5,6 +5,8 @@ import Navbar from './components/Navbar/Navbar';
 import ProductBar from './components/ProductBar/ProductBar';
 import data from "./components/data/Data"
 import {ReactComponent as Arrow} from "../src/components/assets/images/arrowIcon.svg"
+import BrandCard from './components/BrandCards/BrandCards';
+import brandsdata from './components/data/TopBrandsData';
 
 
 function App() {
@@ -21,6 +23,22 @@ const arr = data.map(items =>
     )
   }
   )
+
+
+  const brandsArray = brandsdata.map(items =>
+    {
+      return(
+        <BrandCard
+        img ={items.img}
+        name ={items.name}
+        desc={items.desc}
+    
+        />
+      )
+    }
+    )
+  
+
 
   return (
     <div className="App">
@@ -42,6 +60,11 @@ const arr = data.map(items =>
       title ="Top Brands "
       view ="View All Brands "
       />
+
+<div className='cards--app brand-cards'>
+
+  {brandsArray}
+</div>
 
     </div>
   );
