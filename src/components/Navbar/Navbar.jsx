@@ -1,6 +1,7 @@
 import "./Navbar.style.css"
 import logo from "../assets/images/logo.png"
 import {ReactComponent as ShoppingCart} from "../assets/images/shopping-cart-icon.svg"
+import { Link } from "react-router-dom"
 export default function Navbar(){
 
     return(
@@ -11,8 +12,9 @@ export default function Navbar(){
         </div>
 
         <div className="brand--menu">
-            <a href="/">Shop</a>
-            <a href="/">Products</a>
+            
+            <Link to="/">Shop</Link>
+            <Link to="/products">Products</Link>
             <a href="/">Sale</a>
             <a href="/">Contact</a>
         </div>

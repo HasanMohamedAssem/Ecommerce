@@ -1,0 +1,58 @@
+.body--containerPH{
+    background-color: #E4E5D7;
+}
+.body--imgPH{
+    position: static;
+    display: block;
+    width: 20%;
+    height: 5%;
+    
+}
+.body--imgPH>img{
+    width: 100%;
+    height: 350px;
+}
+.firstText-on-imgPH{ 
+ position: absolute;
+ top: 60px;
+ right: 55%;
+}
+.firstText-on-imgPH>h1{
+font-family: 'Sree Krushnadevaraya';
+color: black;
+font-size: 40px;
+font-weight: 400;
+
+}
+.secondText-on-imgPH{  
+ position: absolute;
+ top: 180px;
+ right: 20%;
+}
+.secondText-on-imgPH>h1{
+color: #686868;
+font-family: 'Sree Krushnadevaraya';
+font-size: 25px;
+font-weight: 400;
+}
+
+.button-on-imgPH{
+    
+position: absolute;
+top: 290px;
+right: 25%;
+
+}
+.button-on-imgPH>button{
+    background-color: #73A336;
+    color:#FFFFFF;
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
+    width: 173px;
+    height: 62px;
+    font-weight: 600;
+}
+
+.button-on-imgPH>button:hover{
+    font-size:x-large;
+}

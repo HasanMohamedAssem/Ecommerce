@@ -7,6 +7,8 @@ import data from "./components/data/Data"
 import {ReactComponent as Arrow} from "../src/components/assets/images/arrowIcon.svg"
 import BrandCard from './components/BrandCards/BrandCards';
 import brandsdata from './components/data/TopBrandsData';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import ProductHead from './components/productHead/ProductHead';
 
 
 function App() {
@@ -43,7 +45,11 @@ const arr = data.map(items =>
   return (
     <div className="App">
       
-      <Navbar />
+<BrowserRouter>
+<Routes>
+
+<Route path="/" element={<>   
+   <Navbar />
       <Body />
       <ProductBar 
       title ="Best Selling Products "
@@ -64,8 +70,21 @@ const arr = data.map(items =>
 <div className='cards--app brand-cards'>
 
   {brandsArray}
-</div>
 
+</div>
+</>}/>
+
+
+    <Route path="products" element={<>   
+        <Navbar />
+        <ProductHead />
+    </>
+    }/>
+
+
+
+</Routes>
+      </BrowserRouter>
     </div>
   );
 }
