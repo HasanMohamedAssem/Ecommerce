@@ -4,6 +4,7 @@ import Card from './components/Card/Card';
 import Navbar from './components/Navbar/Navbar';
 import ProductBar from './components/ProductBar/ProductBar';
 import data from "./components/data/Data"
+import Ordinarydata from "./components/data/TheOrdinaryData"
 import {ReactComponent as Arrow} from "../src/components/assets/images/arrowIcon.svg"
 import BrandCard from './components/BrandCards/BrandCards';
 import brandsdata from './components/data/TopBrandsData';
@@ -41,6 +42,19 @@ const arr = data.map(items =>
     }
     )
   
+
+    
+const ordinaryProducts = Ordinarydata.map(items =>
+  {
+    return(
+      <Card
+      img ={items.img}
+      desc={items.desc}
+      price={items.price} 
+      />
+    )
+  }
+  )
 
 
   return (
@@ -80,6 +94,10 @@ const arr = data.map(items =>
         <Navbar />
         <ProductHead />
         <FilterBar />
+        <div className='cards--app'>
+
+        {ordinaryProducts}
+        </div>
     </>
     }/>
     
