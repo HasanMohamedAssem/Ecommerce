@@ -1,0 +1,36 @@
+.FBcontainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    padding-top: 30px;
+    
+}
+.FBtitle{
+    padding: 5px;
+    padding-left: 20px;
+    color: #1E1E1E;
+    
+}
+.FBtitle>button{
+    border: none;
+    background-color: transparent;
+    font-weight: 700;
+    color: #676767;
+}
+.FBview{
+    padding: 5px;
+    padding-right: 20px;
+    align-self: center;
+}
+.FBview>a:link{
+    color: #676767;
+    font-weight: 600;
+}
+.FBview>a:visited{
+    color: #676767;
+    font-weight: 600;
+}
+.FBview>a:hover{
+    color: #868686;
+    font-weight: 600;
+}

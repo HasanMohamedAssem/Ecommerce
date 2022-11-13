@@ -9,6 +9,7 @@ import BrandCard from './components/BrandCards/BrandCards';
 import brandsdata from './components/data/TopBrandsData';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import ProductHead from './components/productHead/ProductHead';
+import FilterBar from './components/filterBar/FilterBar';
 
 
 function App() {
@@ -78,8 +79,10 @@ const arr = data.map(items =>
     <Route path="products" element={<>   
         <Navbar />
         <ProductHead />
+        <FilterBar />
     </>
     }/>
+    
 
 
 
